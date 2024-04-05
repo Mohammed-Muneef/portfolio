@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper font-['Poppins']">
+      <section
+        id="home"
+        class="bg-[url('/build/images/intro-bg.jpg')] min-h-screen bg-cover bg-center"
+      >
+        <div class="bg-black/70 min-h-screen py-10">
+          <div class="w-[80%] py-10 mx-auto text-center">
+            <img
+              src="/build/images/web-developer-sm.jpg"
+              alt=""
+              class="w-48 h-48 rounded-full border-8 mx-auto my-auto"
+            />
+            <h1 class="text-white font-semibold text-[40px] my-4">
+              HELLO! I'M MOHAMMED MUNEEF - GRAPHIC DESIGNER, ILLUSTRATOR & ART
+              DIRECTOR.
+            </h1>
+            <p class="text-[#dee3e4] text-[23px] my-4">
+              based in Los Angeles, USA.
+            </p>
+            <button class="bg-sky-400 w-[148px] h-[56px] mt-4 font-semibold">
+              <a href="#about">About Me</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <header class="mx-auto bg-white sticky top-0">
+        <nav class="w-[80%] mx-auto bg-white border-gray-200 dark:bg-gray-900">
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4"
+          >
+            <a
+              href="https://flowbite.com/"
+              class="flex items-center space-x-3 rtl:space-x-reverse"
+            >
+              <h1 class="text-3xl font-bold text-[#474d57;]">MUNEEF</h1>
+            </a>
+
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+              <ul
+                class="font-medium flex flex-col p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white bg-sky-400 rounded lg:bg-transparent lg:text-sky-400 lg:p-0 dark:text-white lg:dark:text-sky-400"
+                    aria-current="page"
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#about"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-400 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                    >ABOUT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-400 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                    >SERVICES</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#resume"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-400 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                    >RESUME</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#portfolio"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-400 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                    >PORTFOLIO</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#contact"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-400 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="icons flex text-[#252b33;] font-semibold items-center">
+              <button
+                data-collapse-toggle="navbar-default"
+                type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default"
+                aria-expanded="false"
+                id="nav-toggle"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              </button>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 8 19"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">Facebook page</span>
+              </a>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 17"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">Twitter page</span>
+              </a>
+              <a
+                href="#"
+                class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <svg
+                  class="w-4 h-4"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="sr-only">GitHub account</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div
+        id="toggle-div"
+        class="hidden w-[80%] mx-auto font-semibold text-medium lg:hidden shadow-md sticky top-20"
+      >
+        <div class="p-3 border bg-slate-50"><a href="#">HOME</a></div>
+        <div class="p-3 border bg-slate-50"><a href="#about">ABOUT</a></div>
+        <div class="p-3 border bg-slate-50">
+          <a href="#services">SERVICES</a>
+        </div>
+        <div class="p-3 border bg-slate-50"><a href="#resume">RESUME</a></div>
+        <div class="p-3 border bg-slate-50"><a href="#portfolio">PORTFOLIO</a></div>
+        <div class="p-3 border bg-slate-50"><a href="#contact">CONTACT</a></div>
+      </div>
+      <div class="About-me min-h-screen py-[6.5rem]" id="about">
+        <div class="content w-[80%] mx-auto">
+          <div>
+            <p class="text-center mb-2">
+              <span class="bg-sky-400 text-dark px-3">About Me</span>
+            </p>
+            <h2
+              class="text-center mb-5 text-[40px] font-semibold"
+              style="visibility: visible"
+            >
+              Know Me More
+            </h2>
+          </div>
+          <div class="flex flex-wrap justify-center">
+            <div class="md:w-[67%] max-md:text-center">
+              <h2 class="text-4xl mb-3">
+                Hi, I'm
+                <span class="font-bold">Mohammed Muneef</span>
+              </h2>
+              <p class="text-[21px] mb-10">
+                I'm a designer &amp; developer with a passion for web design. I
+                enjoy developing simple, clean and slick websites that provide
+                real value to the end user. Thousands of clients have procured
+                exceptional results while working with me. Delivering work
+                within time and budget which meets client’s requirements is our
+                moto.
+              </p>
+            </div>
+            <div class="md:w-[33%] relative">
+              <div class="w-28 h-28 bg-sky-400 rounded-full mx-auto relative">
+                <h1
+                  class="text-[134px] font-semibold text-center text-[#4c4d4d;] absolute top-[-45px] left-[-20px]"
+                >
+                  22
+                </h1>
+              </div>
+              <h3 class="text-center text-[28px]">
+                Years of <span class="font-semibold">Experiance</span>
+              </h3>
+            </div>
+          </div>
+          <div
+            class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 mt-5 gap-4"
+          >
+            <div class="max-lg:text-center">
+              <p class="text-[#8e9a9d]">Name:</p>
+              <p class="text-[18px] font-medium">Callum Smith</p>
+            </div>
+            <div class="max-lg:text-center">
+              <p class="text-[#8e9a9d]">Email:</p>
+              <p class="text-[18px] font-medium">
+                <a class="link-dark" href="mailto:chat@callum.com"
+                  >chat@callum.com</a
+                >
+              </p>
+            </div>
+            <div class="max-lg:text-center">
+              <p class="text-[#8e9a9d]">Date of birth:</p>
+              <p class="text-[18px] font-medium">11 November, 1987</p>
+            </div>
+            <div class="max-lg:text-center">
+              <p class="text-[#8e9a9d]">From:</p>
+              <p class="text-[18px] font-medium">Los Angeles, USA.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="What-i-do min-h-screen py-[6.5rem]" id="services">
+        <div class="w-[80%] mx-auto">
+          <div>
+            <p class="text-center mb-2">
+              <span class="bg-sky-400 text-dark px-3">What i do?</span>
+            </p>
+            <h2
+              class="text-center mb-5 text-[40px] font-semibold"
+              style="visibility: visible"
+            >
+              How can i help your next project?
+            </h2>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-9">
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path
+                        d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"
+                      />
+                      <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
+                      <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                      <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">Graphic Design</h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <rect x="3" y="4" width="18" height="12" rx="1" />
+                      <line x1="7" y1="20" x2="17" y2="20" />
+                      <line x1="9" y1="16" x2="9" y2="20" />
+                      <line x1="15" y1="16" x2="15" y2="20" />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">Web Design</h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path
+                        d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4"
+                      />
+                      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">UI/UX Design</h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                      <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                      <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                      <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">
+                    App Design & Develop
+                  </h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <polyline
+                        points="4 19 8 13 12 15 16 10 20 14 20 19 4 19"
+                      />
+                      <polyline points="4 12 7 8 11 10 16 4 20 8" />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">
+                    Business Analysis
+                  </h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+              <div class="max-md:w-[60vw] mx-auto">
+                <div class="text-center px-md-4">
+                  <div class="">
+                    <svg
+                      class="h-20 w-20 text-sky-400 mx-auto"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="mb-3 text-[24px] font-semibold">SEO Marketing</h3>
+                  <p class="mb-0">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume min-h-screen py-[6.5rem]" id="resume">
+        <div class="w-[80%] mx-auto">
+          <div>
+            <p class="text-center mb-2">
+              <span class="bg-sky-400 text-dark px-3">Resume</span>
+            </p>
+            <h2
+              class="text-center mb-5 text-[40px] font-semibold"
+              style="visibility: visible"
+            >
+              A summary of my resume
+            </h2>
+          </div>
+          <div class="grid lg:grid-cols-2 gap-7">
+            <div class="border-l-2 border-sky-400 pl-2">
+              <h2 class="mb-4 pb-2 text-[28px] font-semibold">My Education</h2>
+              <div class="">
+                <h3 class="text-[21px] font-medium">
+                  Master in Computer Engineering
+                </h3>
+                <p class="mb-2">Harvard University / 2015 - 2017</p>
+                <p class="text-[#8e9a9d;]">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the dummy text.
+                </p>
+                <hr class="my-4" />
+              </div>
+              <div>
+                <h3 class="text-[21px] font-medium">
+                  Bachelor in Computer Engineering
+                </h3>
+                <p class="">University of California / 2014 - 2015</p>
+                <p class="text-[#8e9a9d;]">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the dummy text.
+                </p>
+                <hr class="my-4" />
+              </div>
+              <div>
+                <h3 class="text-[21px] font-medium">International Science</h3>
+                <p class="mb-2">Harvard University / 2013 - 2014</p>
+                <p class="text-[#8e9a9d;]">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the dummy text.
+                </p>
+                <hr class="my-4" />
+              </div>
+            </div>
+            <div class="border-l-2 border-sky-400 pl-2">
+              <h2 class="mb-4 pb-2 text-[28px] font-semibold">My Experience</h2>
+              <div>
+                <h3 class="text-[21px] font-medium">Sr. Font End Developer</h3>
+                <p class="mb-2">Apple Inc / 2020 - current</p>
+                <p class="text-[#8e9a9d;]">
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+                <hr class="my-4" />
+              </div>
+              <div>
+                <h3 class="text-[21px] font-medium">Jr. Font End Developer</h3>
+                <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
+                <p class="text-[#8e9a9d;]">
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+                <hr class="my-4" />
+              </div>
+              <div>
+                <h3 class="text-[21px] font-medium">HTML Developer</h3>
+                <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+                <p class="text-[#8e9a9d;]">
+                  Lisque persius interesset his et, in quot quidam persequeris
+                  vim, ad mea essent possim iriure.
+                </p>
+                <hr class="my-4" />
+              </div>
+            </div>
+          </div>
+          <h2 class="mb-6 pb-4 mt-8 text-[28px] font-semibold">My Skills</h2>
+          <div class="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-7 md:gap-7">
+            <div>
+              <div class="">
+                <p class="ext-start mb-2">
+                  Web Design <span class="float-end">65%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[65%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="text-start mb-2">
+                  JavaScript <span class="float-end">80%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[80%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="ext-start mb-2">
+                  Angular Js <span class="float-end">60%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[60%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="">
+                <p class="ext-start mb-2">
+                  HTML/CSS <span class="float-end">95%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[95%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="ext-start mb-2">
+                  React JS <span class="float-end">90%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[90%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="ext-start mb-2">
+                  Bootstrap <span class="float-end">70%</span>
+                </p>
+                <div class="mb-4">
+                  <div class="h-2 bg-slate-400 rounded-xl mb-7">
+                    <div class="h-2 bg-sky-400 w-[70%] rounded-xl"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center mt-9">
+            <button
+              class="bg-transparent hover:bg-black-500 text-black-500 font-semibold hover:text-white py-2 px-4 border-2 border-black hover:border-transparent"
+            >
+              Download CV
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="resume min-h-screen py-[6.5rem]" id="portfolio">
+        <div class="w-[80%] mx-auto">
+          <div>
+            <p class="text-center mb-2">
+              <span class="bg-sky-400 text-dark px-3">Portfolio</span>
+            </p>
+            <h2
+              class="text-center mb-5 text-[40px] font-semibold"
+              style="visibility: visible"
+            >
+              Some of my most recent projects
+            </h2>
+          </div>
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-6" >
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-1.jpg')] bg-cover bg-center mx-auto"
+              id="project-1">
+          </div>
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-3.jpg')] bg-cover bg-center mx-auto"
+            ></div>
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-2.jpg')] bg-cover bg-center mx-auto"
+            ></div>
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-4.jpg')] bg-cover bg-center mx-auto"
+            ></div>
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-5.jpg')] bg-cover bg-center mx-auto"
+            ></div>
+            <div
+              class="min-h-[300px] min-w-[290px] lg:mb-11 bg-[url('/build/images/project-6.jpg')] bg-cover bg-center mx-auto"
+            ></div>
+          </div>
+        </div>
+       
+      </div>
+      <section
+        class="bg-[url('/build/images/intro-bg-2.jpg')] min-h-[70vh] bg-cover bg-center"
+      >
+        <div
+          class="bg-black/70 min-h-[70vh] py-11 flex justify-center items-center"
+        >
+          <div>
+            <h2
+              class="text-center text-white mb-5 text-[40px] font-semibold"
+              style="visibility: visible"
+            >
+              Interested in working with me?
+            </h2>
+            <p class="text-center mb-2">
+              <span class="bg-sky-400 text-dark px-10 py-4 w-[100px]"
+                >Hire Me!</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="contact min-h-screen py-[6.5rem] bg-sky-400" id="contact">
+        <div class="content w-[80%] mx-auto">
+          <div class="flex max-md:flex-wrap max-md:text-center justify-center">
+            <div class="md:w-[40%] lg:pr-7 md:pr-2">
+              <h2 class="mb-10 text-[40px] font-semibold">
+                Let's get in touch
+              </h2>
+              <p class="mb-10 text-[21px]">
+                I enjoy discussing new projects and design challenges. Please
+                share as much info, as possible so we can get the most out of
+                our first catch-up.
+              </p>
+              <h3 class="text-[21px] font-medium">Living In:</h3>
+              <address class="text-[18px] mb-10">
+                30 Shacham street, Los Angeles, USA.
+              </address>
+              <h3 class="text-[21px] font-medium">Call:</h3>
+              <p class="text-[18px] mb-10">(+060) 444 434 444</p>
+              <div
+                class="flex justify-center lg:justify-start md:justify-start"
+              >
+                <ul class="mt-5 flex">
+                  <li class="pr-5">
+                    <a
+                      href="#"
+                      class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    >
+                      <svg
+                        class="w-6 h-6"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 8 19"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <span class="sr-only">Facebook page</span>
+                    </a>
+                  </li>
+                  <li class="px-5">
+                    <a
+                      href="#"
+                      class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    >
+                      <svg
+                        class="w-6 h-6"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 17"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <span class="sr-only">Twitter page</span>
+                    </a>
+                  </li>
+                  <li class="px-5">
+                    <a
+                      href="#"
+                      class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    >
+                      <svg
+                        class="w-6 h-6"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <span class="sr-only">GitHub account</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="lg:w-[60%] lg:ps-9 md:ps-4">
+              <h2 class="mb-10 text-[40px] font-semibold">
+                Estimate your Project?
+              </h2>
+              <form id="contact-form" class="form-border" method="post">
+                <div class="">
+                  <div class="flex flex-col">
+                    <label class="form-label mb-2" for="name"
+                      >What is Your Name:</label
+                    ><input
+                      id="name"
+                      name="user_name"
+                      type="text"
+                      class="form-control py-1 bg-sky-400 border-b-2 border-slate-400"
+                      required=""
+                    />
+                  </div>
+                  <div class="flex flex-col mt-6">
+                    <label class="form-label mb-2" for="email"
+                      >Your Email Address:</label
+                    ><input
+                      id="email"
+                      name="user_email"
+                      type="email"
+                      class="form-control py-1 bg-sky-400 border-b-2 border-slate-400"
+                      required=""
+                    />
+                  </div>
+                  <div class="flex flex-col mt-6">
+                    <label class="form-label mb-2" for="form-message"
+                      >How can I Help you?:</label
+                    ><textarea
+                      id="form-message"
+                      name="message"
+                      class="form-control py-1 bg-sky-400 border-b-2 border-slate-400"
+                      rows="4"
+                      required=""
+                    ></textarea>
+                  </div>
+                  <div class="text-center flex lg:justify-start md:justify-start justify-center mt-6 ">
+                    <button
+                      type="button"
+                      class="px-8 py-3.5 text-base font-medium text-white bg-black hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Send ->
+                    </button>
+                  </div>
+                  <div class="Toastify"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+    </div>
+     <div class="hidden fixed h-screen w-screen bg-sky-400 items-center p-5 overflow-y-scroll top-0" id="product-details">
+        <div class="w-full min-h-screen rounded bg-white shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
+          <p class="text-end mb-2" id="close">
+            <span class="bg-sky-400 text-dark px-3 rounded-xl">Close</span>
+          </p>
+          <a href=""></a>
+            <div class="md:flex items-center ">
+                <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0">
+                    <div class="relative">
+                        <img src="/build/images/project-1.jpg" class="w-full relative z-10" alt="">
+                        <div class="border-4 border-sky-400 absolute top-10 bottom-10 left-10 right-10 z-0"></div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 px-10">
+                    <div class="mb-10">
+                        <h1 class="font-bold uppercase text-2xl mb-5">Project 1</h1>
+                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eos, voluptatum dolorum! Laborum blanditiis consequatur, voluptates, sint enim fugiat saepe, dolor fugit, magnam explicabo eaque quas id quo porro dolorum facilis... <a href="#" class="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900">MORE <i class="mdi mdi-arrow-right"></i></a></p>
+                    </div>
+                    <div>
+                        
+                        <div class="inline-block align-bottom">
+                            <button class="bg-sky-400 opacity-75 hover:opacity-100 text-black hover:text-gray-900 rounded-full px-10 py-2 font-semibold">Go live</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+
+    <script>
+      document.getElementById("nav-toggle").addEventListener("click", () => {
+        document.getElementById("toggle-div").classList.toggle("hidden");
+      });
+
+      document.getElementById('project-1').addEventListener("click",()=>{
+        document.getElementById("product-details").classList.toggle("hidden");
+      });
+      document.getElementById('close').addEventListener("click",()=>{
+        document.getElementById("product-details").classList.add("hidden")
+      });
+    </script>
+  </body>
+</html>
