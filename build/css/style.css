@@ -1084,6 +1084,22 @@ video {
   background-image: url('../images/intro-bg-2.jpg');
 }
 
+.bg-\[url\(\'\.\.\/ima\'\)\] {
+  background-image: url('../ima');
+}
+
+.bg-\[url\(\'\.\.\/images\'\)\] {
+  background-image: url('../images');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\] {
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-1\'\)\] {
+  background-image: url('../images/project-1');
+}
+
 .bg-cover {
   background-size: cover;
 }
