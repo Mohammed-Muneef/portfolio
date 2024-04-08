@@ -1056,6 +1056,34 @@ video {
   background-image: url('../images/intro-bg.jpg');
 }
 
+.bg-\[url\(\'\.\.\/images\/project-1\.jpg\'\)\] {
+  background-image: url('../images/project-1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-2\.jpg\'\)\] {
+  background-image: url('../images/project-2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-3\.jpg\'\)\] {
+  background-image: url('../images/project-3.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-4\.jpg\'\)\] {
+  background-image: url('../images/project-4.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-5\.jpg\'\)\] {
+  background-image: url('../images/project-5.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/project-6\.jpg\'\)\] {
+  background-image: url('../images/project-6.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/intro-bg-2\.jpg\'\)\] {
+  background-image: url('../images/intro-bg-2.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
