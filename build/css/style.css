@@ -1020,6 +1020,10 @@ video {
   background-image: url('/build/images/intro-bg-2.jpg');
 }
 
+.bg-\[url\(\'\/build\/images\/intro-bg\.jpg\'\)\] {
+  background-image: url('/build/images/intro-bg.jpg');
+}
+
 .bg-\[url\(\'\/build\/images\/project-1\.jpg\'\)\] {
   background-image: url('/build/images/project-1.jpg');
 }
@@ -1044,16 +1048,12 @@ video {
   background-image: url('/build/images/project-6.jpg');
 }
 
-.bg-\[url\(\'build\/images\/intro-bg\.jpg\'\)\] {
-  background-image: url('build/images/intro-bg.jpg');
-}
-
 .bg-\[url\(\'\/images\/intro-bg\.jpg\'\)\] {
   background-image: url('/images/intro-bg.jpg');
 }
 
-.bg-\[url\(\'\.\/images\/intro-bg\.jpg\'\)\] {
-  background-image: url('./images/intro-bg.jpg');
+.bg-\[url\(\'\.\.\/images\/intro-bg\.jpg\'\)\] {
+  background-image: url('../images/intro-bg.jpg');
 }
 
 .bg-cover {
